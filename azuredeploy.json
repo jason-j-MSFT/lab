@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_labvm00_name": {
+            "value": null
+        },
+        "virtualNetworks_lab_vnet_name": {
+            "value": null
+        },
+        "storageAccounts_labdisks679_name": {
+            "value": null
+        },
+        "networkInterfaces_labvm00313_name": {
+            "value": null
+        },
+        "publicIPAddresses_labvm00_ip_name": {
+            "value": null
+        },
+        "networkSecurityGroups_labvm00_nsg_name": {
+            "value": null
+        },
+        "subnets_default_name": {
+            "value": null
+        },
+        "securityRules_SSH_name": {
+            "value": null
+        }
+    }
+}
