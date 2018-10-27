@@ -89,7 +89,7 @@
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_labdisks679_name'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', concat('storage', uniqueString(resourceGroup().id)))]",
                 "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_labvm00313_name'))]"
             ]
         },
@@ -362,7 +362,7 @@
                 "tier": "Premium"
             },
             "kind": "Storage",
-            "name": "[parameters('storageAccounts_labdisks679_name')]",
+            "name": "[concat('storage', uniqueString(resourceGroup().id))]",
             "apiVersion": "2018-07-01",
             "location": "westus",
             "tags": {},
