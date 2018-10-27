@@ -11,7 +11,7 @@
             "type": "String"
         },
         "storageAccounts_labdisks679_name": {
-            "defaultValue": "labdisks679",
+            "defaultValue": "[concat('storage', uniqueString(resourceGroup().id))]",
             "type": "String"
         },
         "networkInterfaces_labvm00313_name": {
