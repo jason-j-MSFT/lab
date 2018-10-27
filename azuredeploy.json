@@ -10,10 +10,6 @@
             "defaultValue": "lab-vnet",
             "type": "String"
         },
-        "storageAccounts_labdisks679_name": {
-            "defaultValue": "[concat('storage', uniqueString(resourceGroup().id))]",
-            "type": "String"
-        },
         "networkInterfaces_labvm00313_name": {
             "defaultValue": "labvm00313",
             "type": "String"
@@ -61,7 +57,7 @@
                         "name": "[parameters('virtualMachines_labvm00_name')]",
                         "createOption": "FromImage",
                         "vhd": {
-                            "uri": "[concat('https', '://', parameters('storageAccounts_labdisks679_name'), '.blob.core.windows.net', concat('/vhds/', parameters('virtualMachines_labvm00_name'),'20181027142048.vhd'))]"
+                            "uri": "[concat('https', '://', concat('storage', uniqueString(resourceGroup().id)), '.blob.core.windows.net', concat('/vhds/', parameters('virtualMachines_labvm00_name'),'20181027142048.vhd'))]"
                         },
                         "caching": "ReadWrite",
                         "diskSizeGB": 30
