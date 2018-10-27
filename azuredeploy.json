@@ -14,6 +14,9 @@
             "defaultValue": "labvm00313",
             "type": "String"
         },
+        "adminPassword": {
+            "type": "String"
+        },
         "publicIPAddresses_labvm00_ip_name": {
             "defaultValue": "labvm00-ip",
             "type": "String"
@@ -67,6 +70,7 @@
                 "osProfile": {
                     "computerName": "[parameters('virtualMachines_labvm00_name')]",
                     "adminUsername": "adminvm",
+                    "adminPassword": "[parameters('adminPassword')]",
                     "linuxConfiguration": {
                         "disablePasswordAuthentication": false,
                         "provisionVMAgent": true
