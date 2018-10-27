@@ -6,6 +6,10 @@
             "defaultValue": "labvm00",
             "type": "String"
         },
+        "virtualNetworks_lab_vnet_name": {
+            "defaultValue": "lab-vnet",
+            "type": "String"
+        },
         "storageAccounts_labdisks679_name": {
             "defaultValue": "labdisks679",
             "type": "String"
