@@ -19,11 +19,11 @@ Launch a VM in Azure.  This will create a:
 
 **Key Knowledge Areas:**
 
-_OpenSSH configuration files, tools and utilities
+OpenSSH configuration files, tools and utilities
 Login restrictions for the superuser and the normal users
 Managing and using server and client keys to login with and without password
 Usage of multiple connections from multiple hosts to guard against loss of connection to remote host following configuration changes
-Terms and Utilities:_
+Terms and Utilities:
 
 * ssh
 * sshd
@@ -37,13 +37,13 @@ Terms and Utilities:_
 
 **Key Knowledge Areas:**
 
-_iptables and ip6tables configuration files, tools and utilities
+iptables and ip6tables configuration files, tools and utilities
 Tools, commands and utilities to manage routing tables.
 Private address ranges (IPv4) and Unique Local Addresses as well as Link Local Addresses (IPv6)
 Port redirection and IP forwarding
 List and write filtering and rules that accept or block IP packets based on source or destination protocol, port and address
 Save and reload filtering configurations
-Terms and Utilities:_
+Terms and Utilities:
 
 * /proc/sys/net/ipv4/
 * /proc/sys/net/ipv6/
