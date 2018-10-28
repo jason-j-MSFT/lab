@@ -8,7 +8,6 @@
 # Domain Name Server
 
 ## Basic DNS server configuration
-
 ### Configure BIND to function as a caching-only DNS server. Manage a running server and configuring logging.
 
 **Key Knowledge Areas:**
@@ -148,7 +147,6 @@ Terms and Utilities:
 # File Sharing
 
 ## SAMBA Server Configuration
-
 ### Set up a Samba server for various clients.  Setting up Samba as a standalone server as well as integrating Samba as a member in an Active Directory. Configuration of simple CIFS and printer shares. Configuring a Linux client to use a Samba server. Troubleshooting installations.
 
 **Key Knowledge Areas:**
@@ -193,10 +191,10 @@ Terms and Utilities:
 * mountd
 * portmapper
 
-## Network Client Management
-### DHCP configuration
+# Network Client Management
 
-Configure a DHCP server. Setting default and per client options, adding static hosts and BOOTP hosts. Configuring a DHCP relay agent and maintaining the DHCP server.
+## DHCP configuration
+### Configure a DHCP server. Setting default and per client options, adding static hosts and BOOTP hosts. Configuring a DHCP relay agent and maintaining the DHCP server.
 
 **Key Knowledge Areas:**
 
@@ -215,7 +213,6 @@ Terms and Utilities:
  
 
 ## PAM authentication
-
 ### Configure PAM to support authentication using various available methods. Basic SSSD functionality.
 
 **Key Knowledge Areas:**
@@ -233,7 +230,6 @@ Terms and Utilities:
  
 
 ## LDAP client usage
-
 ### Perform queries and updates to an LDAP server. Importing and adding items, as well as adding and managing users.
 
 **Key Knowledge Areas:**
@@ -250,7 +246,6 @@ Terms and Utilities:
  
 
 ## Configuring an OpenLDAP server
-
 ### Configure a basic OpenLDAP server including knowledge of LDIF format and essential access controls.
 
 **Key Knowledge Areas:**
@@ -274,13 +269,12 @@ Terms and Utilities:
 * /var/lib/ldap/
 * loglevel
 
-Topic 211: E-Mail Services
-211.1 Using e-mail servers
-Weight: 4
+# E-Mail Services
 
-Description: Candidates should be able to manage an e-mail server, including the configuration of e-mail aliases, e-mail quotas and virtual e-mail domains. This objective includes configuring internal e-mail relays and monitoring e-mail servers.
+## Using e-mail servers
+###Manage an e-mail server, including the configuration of e-mail aliases, e-mail quotas and virtual e-mail domains. Configuring internal e-mail relays and monitoring e-mail servers.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 Configuration files for postfix
 Basic TLS configuration for postfix
@@ -288,49 +282,50 @@ Basic knowledge of the SMTP protocol
 Awareness of sendmail and exim
 Terms and Utilities:
 
-Configuration files and commands for postfix
-/etc/postfix/
-/var/spool/postfix/
-sendmail emulation layer commands
-/etc/aliases
-mail-related logs in /var/log/
+* Configuration files and commands for postfix
+* /etc/postfix/
+* /var/spool/postfix/
+* sendmail emulation layer commands
+* /etc/aliases
+* mail-related logs in /var/log/
  
 
-Managing E-Mail Delivery
-Implement client e-mail management software to filter, sort and monitor incoming user e-mail.
+## Managing E-Mail Delivery
+### Implement client e-mail management software to filter, sort and monitor incoming user e-mail.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 Understanding of Sieve functionality, syntax and operators
 Use Sieve to filter and sort mail with respect to sender, recipient(s), headers and size
 Awareness of procmail
 Terms and Utilities:
 
-Conditions and comparison operators
-keep, fileinto, redirect, reject, discard, stop
-Dovecot vacation extension
+* Conditions and comparison operators
+* keep, fileinto, redirect, reject, discard, stop
+* Dovecot vacation extension
  
-Managing Remote E-Mail Delivery
-Install and configure POP and IMAP daemons.
+## Managing Remote E-Mail Delivery
 
-Key Knowledge Areas:
+### Install and configure POP and IMAP daemons.
+
+**Key Knowledge Areas:**
 
 Dovecot IMAP and POP3 configuration and administration
 Basic TLS configuration for Dovecot
 Awareness of Courier
 Terms and Utilities:
 
-/etc/dovecot/
-dovecot.conf
-doveconf
-doveadm
+* /etc/dovecot/
+* dovecot.conf
+* doveconf
+* doveadm
 
-System Security
-Configuring a router
+#System Security
 
-Configure a system to forward IP packet and perform network address translation (NAT, IP masquerading) and state its significance in protecting a network. This objective includes configuring port redirection, managing filter rules and averting attacks.
+##Configuring a router
+###Configure a system to forward IP packet and perform network address translation (NAT, IP masquerading) and state its significance in protecting a network. Configuring port redirection, managing filter rules and averting attacks.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 iptables and ip6tables configuration files, tools and utilities
 Tools, commands and utilities to manage routing tables.
@@ -340,31 +335,31 @@ List and write filtering and rules that accept or block IP packets based on sour
 Save and reload filtering configurations
 Terms and Utilities:
 
-/proc/sys/net/ipv4/
-/proc/sys/net/ipv6/
-/etc/services
-iptables
-ip6tables
+* /proc/sys/net/ipv4/
+* /proc/sys/net/ipv6/
+* /etc/services
+* iptables
+* ip6tables
  
 
-Securing FTP servers
-Configure an FTP server for anonymous downloads and uploads. This objective includes precautions to be taken if anonymous uploads are permitted and configuring user access.
+##Securing FTP servers
+###Configure an FTP server for anonymous downloads and uploads. Precautions to be taken if anonymous uploads are permitted and configuring user access.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 Configuration files, tools and utilities for Pure-FTPd and vsftpd
 Awareness of ProFTPd
 Understanding of passive vs. active FTP connections
 Terms and Utilities:
 
-vsftpd.conf
-important Pure-FTPd command line options
+* vsftpd.conf
+* important Pure-FTPd command line options
  
 
-Secure shell (SSH)
-Configure and secure an SSH daemon. This objective includes managing keys and configuring SSH for users. Candidates should also be able to forward an application protocol over SSH and manage the SSH login.
+##Secure shell (SSH)
+###Configure and secure an SSH daemon.  Managing keys and configuring SSH for users. Forward an application protocol over SSH and manage the SSH login.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 OpenSSH configuration files, tools and utilities
 Login restrictions for the superuser and the normal users
@@ -372,18 +367,18 @@ Managing and using server and client keys to login with and without password
 Usage of multiple connections from multiple hosts to guard against loss of connection to remote host following configuration changes
 Terms and Utilities:
 
-ssh
-sshd
-/etc/ssh/sshd_config
-/etc/ssh/
-Private and public key files
-PermitRootLogin, PubKeyAuthentication, AllowUsers, PasswordAuthentication, Protocol
+* ssh
+* sshd
+* /etc/ssh/sshd_config
+* /etc/ssh/
+* Private and public key files
+* PermitRootLogin, PubKeyAuthentication, AllowUsers, PasswordAuthentication, Protocol
  
 
-Security tasks
-Receive security alerts from various sources, install, configure and run intrusion detection systems and apply security patches and bugfixes.
+##Security tasks
+###Receive security alerts from various sources, install, configure and run intrusion detection systems and apply security patches and bugfixes.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 Tools and utilities to scan and test ports on a server
 Locations and organizations that report security alerts as Bugtraq, CERT or other sources
@@ -391,20 +386,20 @@ Tools and utilities to implement an intrusion detection system (IDS)
 Awareness of OpenVAS and Snort
 Terms and Utilities:
 
-telnet
-nmap
-fail2ban
-nc
-iptables
+* telnet
+* nmap
+* fail2ban
+* nc
+* iptables
  
 
-OpenVPN
-Configure a VPN (Virtual Private Network) and create secure point-to-point or site-to-site connections.
+##OpenVPN
+###Configure a VPN (Virtual Private Network) and create secure point-to-point or site-to-site connections.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 OpenVPN
 Terms and Utilities:
 
-/etc/openvpn/
-openvpn
+* /etc/openvpn/
+* openvpn
