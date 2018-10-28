@@ -27,10 +27,10 @@ The following is a partial list of the used files, terms and utilities:
 * dig
  
 
-Create and maintain DNS zones
-Create a zone file for a forward or reverse zone and hints for root level servers. This objective includes setting appropriate values for records, adding hosts in zones and adding zones to the DNS. A candidate should also be able to delegate zones to another DNS server.
+## Create and maintain DNS zones
+### Create a zone file for a forward or reverse zone and hints for root level servers. Setting appropriate values for records, adding hosts in zones and adding zones to the DNS. Delegate zones to another DNS server.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 BIND 9 configuration files, terms and utilities
 Utilities to request information from the DNS server
@@ -38,15 +38,15 @@ Layout, content and file location of the BIND zone files
 Various methods to add a new host in the zone files, including reverse zones
 Terms and Utilities:
 
-/var/named/
-zone file syntax
-resource record formats
-named-checkzone
-named-compilezone
-masterfile-format
-dig
-nslookup
-host
+* /var/named/
+* zone file syntax
+* resource record formats
+* named-checkzone
+* named-compilezone
+* masterfile-format
+* dig
+* nslookup
+* host
  
 
 Securing a DNS server
