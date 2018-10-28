@@ -5,6 +5,90 @@
   <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
+# System Security
+
+## Configuring a router
+### Configure a system to forward IP packet and perform network address translation (NAT, IP masquerading) and state its significance in protecting a network. Configuring port redirection, managing filter rules and averting attacks.
+
+**Key Knowledge Areas:**
+
+iptables and ip6tables configuration files, tools and utilities
+Tools, commands and utilities to manage routing tables.
+Private address ranges (IPv4) and Unique Local Addresses as well as Link Local Addresses (IPv6)
+Port redirection and IP forwarding
+List and write filtering and rules that accept or block IP packets based on source or destination protocol, port and address
+Save and reload filtering configurations
+Terms and Utilities:
+
+* /proc/sys/net/ipv4/
+* /proc/sys/net/ipv6/
+* /etc/services
+* iptables
+* ip6tables
+ 
+
+## Securing FTP servers
+### Configure an FTP server for anonymous downloads and uploads. Precautions to be taken if anonymous uploads are permitted and configuring user access.
+
+**Key Knowledge Areas:**
+
+Configuration files, tools and utilities for Pure-FTPd and vsftpd
+Awareness of ProFTPd
+Understanding of passive vs. active FTP connections
+Terms and Utilities:
+
+* vsftpd.conf
+* important Pure-FTPd command line options
+ 
+
+## Secure shell (SSH)
+### Configure and secure an SSH daemon.  Managing keys and configuring SSH for users. Forward an application protocol over SSH and manage the SSH login.
+
+**Key Knowledge Areas:**
+
+OpenSSH configuration files, tools and utilities
+Login restrictions for the superuser and the normal users
+Managing and using server and client keys to login with and without password
+Usage of multiple connections from multiple hosts to guard against loss of connection to remote host following configuration changes
+Terms and Utilities:
+
+* ssh
+* sshd
+* /etc/ssh/sshd_config
+* /etc/ssh/
+* Private and public key files
+* PermitRootLogin, PubKeyAuthentication, AllowUsers, PasswordAuthentication, Protocol
+ 
+
+## Security tasks
+### Receive security alerts from various sources, install, configure and run intrusion detection systems and apply security patches and bugfixes.
+
+**Key Knowledge Areas:**
+
+Tools and utilities to scan and test ports on a server
+Locations and organizations that report security alerts as Bugtraq, CERT or other sources
+Tools and utilities to implement an intrusion detection system (IDS)
+Awareness of OpenVAS and Snort
+Terms and Utilities:
+
+* telnet
+* nmap
+* fail2ban
+* nc
+* iptables
+ 
+
+## OpenVPN
+### Configure a VPN (Virtual Private Network) and create secure point-to-point or site-to-site connections.
+
+**Key Knowledge Areas:**
+
+OpenVPN
+Terms and Utilities:
+
+* /etc/openvpn/
+* openvpn
+
 # Domain Name Server
 
 ## Basic DNS server configuration
@@ -319,87 +403,3 @@ Terms and Utilities:
 * dovecot.conf
 * doveconf
 * doveadm
-
-# System Security
-
-## Configuring a router
-### Configure a system to forward IP packet and perform network address translation (NAT, IP masquerading) and state its significance in protecting a network. Configuring port redirection, managing filter rules and averting attacks.
-
-**Key Knowledge Areas:**
-
-iptables and ip6tables configuration files, tools and utilities
-Tools, commands and utilities to manage routing tables.
-Private address ranges (IPv4) and Unique Local Addresses as well as Link Local Addresses (IPv6)
-Port redirection and IP forwarding
-List and write filtering and rules that accept or block IP packets based on source or destination protocol, port and address
-Save and reload filtering configurations
-Terms and Utilities:
-
-* /proc/sys/net/ipv4/
-* /proc/sys/net/ipv6/
-* /etc/services
-* iptables
-* ip6tables
- 
-
-## Securing FTP servers
-### Configure an FTP server for anonymous downloads and uploads. Precautions to be taken if anonymous uploads are permitted and configuring user access.
-
-**Key Knowledge Areas:**
-
-Configuration files, tools and utilities for Pure-FTPd and vsftpd
-Awareness of ProFTPd
-Understanding of passive vs. active FTP connections
-Terms and Utilities:
-
-* vsftpd.conf
-* important Pure-FTPd command line options
- 
-
-## Secure shell (SSH)
-### Configure and secure an SSH daemon.  Managing keys and configuring SSH for users. Forward an application protocol over SSH and manage the SSH login.
-
-**Key Knowledge Areas:**
-
-OpenSSH configuration files, tools and utilities
-Login restrictions for the superuser and the normal users
-Managing and using server and client keys to login with and without password
-Usage of multiple connections from multiple hosts to guard against loss of connection to remote host following configuration changes
-Terms and Utilities:
-
-* ssh
-* sshd
-* /etc/ssh/sshd_config
-* /etc/ssh/
-* Private and public key files
-* PermitRootLogin, PubKeyAuthentication, AllowUsers, PasswordAuthentication, Protocol
- 
-
-## Security tasks
-### Receive security alerts from various sources, install, configure and run intrusion detection systems and apply security patches and bugfixes.
-
-**Key Knowledge Areas:**
-
-Tools and utilities to scan and test ports on a server
-Locations and organizations that report security alerts as Bugtraq, CERT or other sources
-Tools and utilities to implement an intrusion detection system (IDS)
-Awareness of OpenVAS and Snort
-Terms and Utilities:
-
-* telnet
-* nmap
-* fail2ban
-* nc
-* iptables
- 
-
-## OpenVPN
-### Configure a VPN (Virtual Private Network) and create secure point-to-point or site-to-site connections.
-
-**Key Knowledge Areas:**
-
-OpenVPN
-Terms and Utilities:
-
-* /etc/openvpn/
-* openvpn
