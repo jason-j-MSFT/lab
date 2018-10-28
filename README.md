@@ -164,10 +164,10 @@ Terms and Utilities:
 * dnssec-keygen
 * dnssec-signzone
 
-## Web Services
-### Implementing a web server
+# Web Services
 
-Install and configure a web server. This objective includes monitoring the server’s load and performance, restricting client user access, configuring support for scripting languages as modules and setting up client user authentication. Configuring server options to restrict usage of resources. Configure a web server to use virtual hosts and customize file access.
+## Implementing a web server
+### Install and configure a web server. Monitoring the server’s load and performance, restricting client user access, configuring support for scripting languages as modules and setting up client user authentication. Configuring server options to restrict usage of resources. Configure a web server to use virtual hosts and customize file access.
 
 **Key Knowledge Areas:**
 
