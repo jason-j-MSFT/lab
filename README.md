@@ -49,10 +49,10 @@ Terms and Utilities:
 * host
  
 
-Securing a DNS server
-Configure a DNS server to run as a non-root user and run in a chroot jail. This objective includes secure exchange of data between DNS servers.
+## Securing a DNS server
+### Configure a DNS server to run as a non-root user and run in a chroot jail. This objective includes secure exchange of data between DNS servers.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 BIND 9 configuration files
 Configuring BIND to run in a chroot jail
@@ -62,11 +62,11 @@ Awareness of DNSSEC and basic tools
 Awareness of DANE and related records
 Terms and Utilities:
 
-/etc/named.conf
-/etc/passwd
-DNSSEC
-dnssec-keygen
-dnssec-signzone
+* /etc/named.conf
+* /etc/passwd
+* DNSSEC
+* dnssec-keygen
+* dnssec-signzone
 
 Web Services
 Implementing a web server
