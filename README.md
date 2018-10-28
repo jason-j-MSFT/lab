@@ -7,6 +7,24 @@
 
 # System Security
 
+## Secure shell (SSH)
+### Configure and secure an SSH daemon.  Managing keys and configuring SSH for users. Forward an application protocol over SSH and manage the SSH login.
+
+**Key Knowledge Areas:**
+
+OpenSSH configuration files, tools and utilities
+Login restrictions for the superuser and the normal users
+Managing and using server and client keys to login with and without password
+Usage of multiple connections from multiple hosts to guard against loss of connection to remote host following configuration changes
+Terms and Utilities:
+
+* ssh
+* sshd
+* /etc/ssh/sshd_config
+* /etc/ssh/
+* Private and public key files
+* PermitRootLogin, PubKeyAuthentication, AllowUsers, PasswordAuthentication, Protocol
+
 ## Configuring a router
 ### Configure a system to forward IP packet and perform network address translation (NAT, IP masquerading) and state its significance in protecting a network. Configuring port redirection, managing filter rules and averting attacks.
 
@@ -39,26 +57,6 @@ Terms and Utilities:
 
 * vsftpd.conf
 * important Pure-FTPd command line options
- 
-
-## Secure shell (SSH)
-### Configure and secure an SSH daemon.  Managing keys and configuring SSH for users. Forward an application protocol over SSH and manage the SSH login.
-
-**Key Knowledge Areas:**
-
-OpenSSH configuration files, tools and utilities
-Login restrictions for the superuser and the normal users
-Managing and using server and client keys to login with and without password
-Usage of multiple connections from multiple hosts to guard against loss of connection to remote host following configuration changes
-Terms and Utilities:
-
-* ssh
-* sshd
-* /etc/ssh/sshd_config
-* /etc/ssh/
-* Private and public key files
-* PermitRootLogin, PubKeyAuthentication, AllowUsers, PasswordAuthentication, Protocol
- 
 
 ## Security tasks
 ### Receive security alerts from various sources, install, configure and run intrusion detection systems and apply security patches and bugfixes.
