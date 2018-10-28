@@ -37,13 +37,13 @@ Terms and Utilities:_
 
 **Key Knowledge Areas:**
 
-iptables and ip6tables configuration files, tools and utilities
+_iptables and ip6tables configuration files, tools and utilities
 Tools, commands and utilities to manage routing tables.
 Private address ranges (IPv4) and Unique Local Addresses as well as Link Local Addresses (IPv6)
 Port redirection and IP forwarding
 List and write filtering and rules that accept or block IP packets based on source or destination protocol, port and address
 Save and reload filtering configurations
-Terms and Utilities:
+Terms and Utilities:_
 
 * /proc/sys/net/ipv4/
 * /proc/sys/net/ipv6/
