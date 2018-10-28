@@ -38,14 +38,14 @@ Launch a VM in Azure.  This will create a:
 
 **Key Knowledge Areas:**
 
-iptables and ip6tables configuration files, tools and utilities  
-Tools, commands and utilities to manage routing table  
-Private address ranges (IPv4) and Unique Local Addresses as well as Link Local Addresses (IPv6)  
-Port redirection and IP forwarding  
-List and write filtering and rules that accept or block IP packets based on source or destination protocol, port and address  
-Save and reload filtering configurations
+1. iptables and ip6tables configuration files, tools and utilities  
+1. Tools, commands and utilities to manage routing table  
+1. Private address ranges (IPv4) and Unique Local Addresses as well as Link Local Addresses (IPv6)  
+1. Port redirection and IP forwarding  
+1. List and write filtering and rules that accept or block IP packets based on source or destination protocol, port and address  
+1. Save and reload filtering configurations
 
-Terms and Utilities:
+**Terms and Utilities:**
 
 * /proc/sys/net/ipv4/
 * /proc/sys/net/ipv6/
@@ -59,10 +59,11 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-Configuration files, tools and utilities for Pure-FTPd and vsftpd
-Awareness of ProFTPd
-Understanding of passive vs. active FTP connections
-Terms and Utilities:
+1. Configuration files, tools and utilities for Pure-FTPd and vsftpd
+1. Awareness of ProFTPd
+1. Understanding of passive vs. active FTP connections
+
+**Terms and Utilities:**
 
 * vsftpd.conf
 * important Pure-FTPd command line options
@@ -72,10 +73,11 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-Tools and utilities to scan and test ports on a server
-Locations and organizations that report security alerts as Bugtraq, CERT or other sources
-Tools and utilities to implement an intrusion detection system (IDS)
-Awareness of OpenVAS and Snort
+1. Tools and utilities to scan and test ports on a server
+1. Locations and organizations that report security alerts as Bugtraq, CERT or other sources
+1. Tools and utilities to implement an intrusion detection system (IDS)
+1. Awareness of OpenVAS and Snort
+
 Terms and Utilities:
 
 * telnet
@@ -90,8 +92,9 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-OpenVPN
-Terms and Utilities:
+1. OpenVPN
+
+**Terms and Utilities:**
 
 * /etc/openvpn/
 * openvpn
@@ -103,11 +106,12 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-BIND 9.x configuration files, terms and utilities
-Defining the location of the BIND zone files in BIND configuration files
-Reloading modified configuration and zone files
-Awareness of dnsmasq, djbdns and PowerDNS as alternate name servers
-The following is a partial list of the used files, terms and utilities:
+1. BIND 9.x configuration files, terms and utilities
+1. Defining the location of the BIND zone files in BIND configuration files
+1. Reloading modified configuration and zone files
+1. Awareness of dnsmasq, djbdns and PowerDNS as alternate name servers
+
+**Terms and utilities:**
 
 * /etc/named.conf
 * /var/named/
@@ -122,11 +126,12 @@ The following is a partial list of the used files, terms and utilities:
 
 **Key Knowledge Areas:**
 
-BIND 9 configuration files, terms and utilities
-Utilities to request information from the DNS server
-Layout, content and file location of the BIND zone files
-Various methods to add a new host in the zone files, including reverse zones
-Terms and Utilities:
+1. BIND 9 configuration files, terms and utilities
+1. Utilities to request information from the DNS server
+1. Layout, content and file location of the BIND zone files
+1. Various methods to add a new host in the zone files, including reverse zones
+
+**Terms and Utilities:**
 
 * /var/named/
 * zone file syntax
@@ -144,13 +149,14 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-BIND 9 configuration files
-Configuring BIND to run in a chroot jail
-Split configuration of BIND using the forwarders statement
-Configuring and using transaction signatures (TSIG)
-Awareness of DNSSEC and basic tools
-Awareness of DANE and related records
-Terms and Utilities:
+1. BIND 9 configuration files
+1. Configuring BIND to run in a chroot jail
+1. Split configuration of BIND using the forwarders statement
+1. Configuring and using transaction signatures (TSIG)
+1. Awareness of DNSSEC and basic tools
+1. Awareness of DANE and related records
+
+**Terms and Utilities:**
 
 * /etc/named.conf
 * /etc/passwd
@@ -161,19 +167,20 @@ Terms and Utilities:
 ## Web Services
 ### Implementing a web server
 
-Install and configure a web server. This objective includes monitoring the server’s load and performance, restricting client user access, configuring support for scripting languages as modules and setting up client user authentication. Also included is configuring server options to restrict usage of resources. Candidates should be able to configure a web server to use virtual hosts and customize file access.
+Install and configure a web server. This objective includes monitoring the server’s load and performance, restricting client user access, configuring support for scripting languages as modules and setting up client user authentication. Configuring server options to restrict usage of resources. Configure a web server to use virtual hosts and customize file access.
 
 **Key Knowledge Areas:**
 
-Apache 2.4 configuration files, terms and utilities
-Apache log files configuration and content
-Access restriction methods and files
-mod_perl and PHP configuration
-Client user authentication files and utilities
-Configuration of maximum requests, minimum and maximum servers and clients
-Apache 2.4 virtual host implementation (with and without dedicated IP addresses)
-Using redirect statements in Apache’s configuration files to customize file access
-Terms and Utilities:
+1. Apache 2.4 configuration files, terms and utilities
+1. Apache log files configuration and content
+1. Access restriction methods and files
+1. mod_perl and PHP configuration
+1. Client user authentication files and utilities
+1. Configuration of maximum requests, minimum and maximum servers and clients
+1. Apache 2.4 virtual host implementation (with and without dedicated IP addresses)
+1. Using redirect statements in Apache’s configuration files to customize file access
+
+**Terms and Utilities:**
 
 * access logs and error logs
 * .htaccess
@@ -190,14 +197,15 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-SSL configuration files, tools and utilities
-Generate a server private key and CSR for a commercial CA
-Generate a self-signed Certificate
-Install the key and certificate, including intermediate CAs
-Configure Virtual Hosting using SNI
-Awareness of the issues with Virtual Hosting and use of SSL
-Security issues in SSL use, disable insecure protocols and ciphers
-Terms and Utilities:
+1. SSL configuration files, tools and utilities
+1. Generate a server private key and CSR for a commercial CA
+1. Generate a self-signed Certificate
+1. Install the key and certificate, including intermediate CAs
+1. Configure Virtual Hosting using SNI
+1. Awareness of the issues with Virtual Hosting and use of SSL
+1. Security issues in SSL use, disable insecure protocols and ciphers
+
+**Terms and Utilities:**
 
 * Apache2 configuration files
 * /etc/ssl/, /etc/pki/
@@ -212,11 +220,12 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-Squid 3.x configuration files, terms and utilities
-Access restriction methods
-Client user authentication methods
-Layout and content of ACL in the Squid configuration files
-Terms and Utilities:
+1. Squid 3.x configuration files, terms and utilities
+1. Access restriction methods
+1. Client user authentication methods
+1. Layout and content of ACL in the Squid configuration files
+
+**Terms and Utilities:**
 
 * squid.conf
 * acl
@@ -227,10 +236,11 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-Nginx
-Reverse Proxy
-Basic Web Server
-Terms and Utilities:
+1. Nginx
+1. Reverse Proxy
+1. Basic Web Server
+
+**Terms and Utilities:**
 
 * /etc/nginx/
 * nginx
@@ -242,13 +252,14 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-Samba 4 documentation
-Samba 4 configuration files
-Samba 4 tools and utilities and daemons
-Mounting CIFS shares on Linux
-Mapping Windows user names to Linux user names
-User-Level, Share-Level and AD security
-Terms and Utilities:
+1. Samba 4 documentation
+1. Samba 4 configuration files
+1. Samba 4 tools and utilities and daemons
+1. Mounting CIFS shares on Linux
+1. Mapping Windows user names to Linux user names
+1. User-Level, Share-Level and AD security
+
+**Terms and Utilities:**
 
 * smbd, nmbd, winbindd
 * smbcontrol, smbstatus, testparm, smbpasswd, nmblookup
@@ -264,13 +275,14 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-NFS version 3 configuration files
-NFS tools and utilities
-Access restrictions to certain hosts and/or subnets
-Mount options on server and client
-TCP Wrappers
-Awareness of NFSv4
-Terms and Utilities:
+1. NFS version 3 configuration files
+1. NFS tools and utilities
+1. Access restrictions to certain hosts and/or subnets
+1. Mount options on server and client
+1. TCP Wrappers
+1. Awareness of NFSv4
+
+**Terms and Utilities:
 
 * /etc/exports
 * exportfs
@@ -289,10 +301,11 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-DHCP configuration files, terms and utilities
-Subnet and dynamically-allocated range setup
-Awareness of DHCPv6 and IPv6 Router Advertisements
-Terms and Utilities:
+1. DHCP configuration files, terms and utilities
+1. Subnet and dynamically-allocated range setup
+1. Awareness of DHCPv6 and IPv6 Router Advertisements
+
+**Terms and Utilities:**
 
 * dhcpd.conf
 * dhcpd.leases
@@ -308,10 +321,11 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-PAM configuration files, terms and utilities
-passwd and shadow passwords
-Use sssd for LDAP authentication
-Terms and Utilities:
+1. PAM configuration files, terms and utilities
+1. passwd and shadow passwords
+1. Use sssd for LDAP authentication
+
+**Terms and Utilities:**
 
 * /etc/pam.d/
 * pam.conf
@@ -325,10 +339,11 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-LDAP utilities for data management and queries
-Change user passwords
-Querying the LDAP directory
-Terms and Utilities:
+1. LDAP utilities for data management and queries
+1. Change user passwords
+1. Querying the LDAP directory
+
+**Terms and Utilities:**
 
 * ldapsearch
 * ldappasswd
@@ -341,15 +356,16 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-OpenLDAP
-Directory based configuration
-Access Control
-Distinguished Names
-Changetype Operations
-Schemas and Whitepages
-Directories
-Object IDs, Attributes and Classes
-Terms and Utilities:
+1. OpenLDAP
+1. Directory based configuration
+1. Access Control
+1. Distinguished Names
+1. Changetype Operations
+1. Schemas and Whitepages
+1. Directories
+1. Object IDs, Attributes and Classes
+
+**Terms and Utilities:**
 
 * slapd
 * slapd-config
@@ -367,11 +383,12 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-Configuration files for postfix
-Basic TLS configuration for postfix
-Basic knowledge of the SMTP protocol
-Awareness of sendmail and exim
-Terms and Utilities:
+1. Configuration files for postfix
+1. Basic TLS configuration for postfix
+1. Basic knowledge of the SMTP protocol
+1. Awareness of sendmail and exim
+
+**Terms and Utilities:**
 
 * Configuration files and commands for postfix
 * /etc/postfix/
@@ -386,10 +403,11 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-Understanding of Sieve functionality, syntax and operators
-Use Sieve to filter and sort mail with respect to sender, recipient(s), headers and size
-Awareness of procmail
-Terms and Utilities:
+1. Understanding of Sieve functionality, syntax and operators
+1. Use Sieve to filter and sort mail with respect to sender, recipient(s), headers and size
+1. Awareness of procmail
+
+**Terms and Utilities:**
 
 * Conditions and comparison operators
 * keep, fileinto, redirect, reject, discard, stop
@@ -401,10 +419,11 @@ Terms and Utilities:
 
 **Key Knowledge Areas:**
 
-Dovecot IMAP and POP3 configuration and administration
-Basic TLS configuration for Dovecot
-Awareness of Courier
-Terms and Utilities:
+1. Dovecot IMAP and POP3 configuration and administration
+1. Basic TLS configuration for Dovecot
+1. Awareness of Courier
+
+**Terms and Utilities:**
 
 * /etc/dovecot/
 * dovecot.conf
