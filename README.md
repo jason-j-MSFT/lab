@@ -68,12 +68,12 @@ Terms and Utilities:
 * dnssec-keygen
 * dnssec-signzone
 
-Web Services
-Implementing a web server
+## Web Services
+### Implementing a web server
 
 Install and configure a web server. This objective includes monitoring the server’s load and performance, restricting client user access, configuring support for scripting languages as modules and setting up client user authentication. Also included is configuring server options to restrict usage of resources. Candidates should be able to configure a web server to use virtual hosts and customize file access.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 Apache 2.4 configuration files, terms and utilities
 Apache log files configuration and content
@@ -85,20 +85,20 @@ Apache 2.4 virtual host implementation (with and without dedicated IP addresses)
 Using redirect statements in Apache’s configuration files to customize file access
 Terms and Utilities:
 
-access logs and error logs
-.htaccess
-httpd.conf
-mod_auth_basic, mod_authz_host and mod_access_compat
-htpasswd
-AuthUserFile, AuthGroupFile
-apachectl, apache2ctl
-httpd, apache2
+* access logs and error logs
+* .htaccess
+* httpd.conf
+* mod_auth_basic, mod_authz_host and mod_access_compat
+* htpasswd
+* AuthUserFile, AuthGroupFile
+* apachectl, apache2ctl
+* httpd, apache2
  
 
-Apache configuration for HTTPS
-Configure a web server to provide HTTPS.
+## Apache configuration for HTTPS
+### Configure a web server to provide HTTPS.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 SSL configuration files, tools and utilities
 Generate a server private key and CSR for a commercial CA
@@ -109,18 +109,18 @@ Awareness of the issues with Virtual Hosting and use of SSL
 Security issues in SSL use, disable insecure protocols and ciphers
 Terms and Utilities:
 
-Apache2 configuration files
-/etc/ssl/, /etc/pki/
-openssl, CA.pl
-SSLEngine, SSLCertificateKeyFile, SSLCertificateFile
-SSLCACertificateFile, SSLCACertificatePath
-SSLProtocol, SSLCipherSuite, ServerTokens, ServerSignature, TraceEnable
+* Apache2 configuration files
+* /etc/ssl/, /etc/pki/
+* openssl, CA.pl
+* SSLEngine, SSLCertificateKeyFile, SSLCertificateFile
+* SSLCACertificateFile, SSLCACertificatePath
+* SSLProtocol, SSLCipherSuite, ServerTokens, ServerSignature, TraceEnable
  
 
-Implementing a proxy server
-Install and configure a proxy server, including access policies, authentication and resource usage.
+## Implementing a proxy server
+### Install and configure a proxy server, including access policies, authentication and resource usage.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 Squid 3.x configuration files, terms and utilities
 Access restriction methods
@@ -128,30 +128,30 @@ Client user authentication methods
 Layout and content of ACL in the Squid configuration files
 Terms and Utilities:
 
-squid.conf
-acl
-http_access
+* squid.conf
+* acl
+* http_access
  
+## Implementing Nginx as a web server and a reverse proxy
+### Install and configure a reverse proxy server, Nginx. Basic configuration of Nginx as a HTTP server is included.
 
-Implementing Nginx as a web server and a reverse proxy
-Install and configure a reverse proxy server, Nginx. Basic configuration of Nginx as a HTTP server is included.
-
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 Nginx
 Reverse Proxy
 Basic Web Server
 Terms and Utilities:
 
-/etc/nginx/
-nginx
+* /etc/nginx/
+* nginx
 
-File Sharing
+# File Sharing
 
-SAMBA Server Configuration
-Set up a Samba server for various clients.  This objective includes setting up Samba as a standalone server as well as integrating Samba as a member in an Active Directory. Furthermore, the configuration of simple CIFS and printer shares is covered. Also covered is a configuring a Linux client to use a Samba server. Troubleshooting installations is also tested.
+## SAMBA Server Configuration
 
-Key Knowledge Areas:
+### Set up a Samba server for various clients.  Setting up Samba as a standalone server as well as integrating Samba as a member in an Active Directory. Configuration of simple CIFS and printer shares. Configuring a Linux client to use a Samba server. Troubleshooting installations.
+
+**Key Knowledge Areas:**
 
 Samba 4 documentation
 Samba 4 configuration files
@@ -161,20 +161,19 @@ Mapping Windows user names to Linux user names
 User-Level, Share-Level and AD security
 Terms and Utilities:
 
-smbd, nmbd, winbindd
-smbcontrol, smbstatus, testparm, smbpasswd, nmblookup
-samba-tool
-net
-smbclient
-mount.cifs
-/etc/samba/
-/var/log/samba/
+* smbd, nmbd, winbindd
+* smbcontrol, smbstatus, testparm, smbpasswd, nmblookup
+* samba-tool
+* net
+* smbclient
+* mount.cifs
+* /etc/samba/
+* /var/log/samba/
  
+## NFS Server Configuration
+### Export filesystems using NFS. This objective includes access restrictions, mounting an NFS filesystem on a client and securing NFS.
 
-NFS Server Configuration
-Export filesystems using NFS. This objective includes access restrictions, mounting an NFS filesystem on a client and securing NFS.
-
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 NFS version 3 configuration files
 NFS tools and utilities
@@ -184,80 +183,77 @@ TCP Wrappers
 Awareness of NFSv4
 Terms and Utilities:
 
-/etc/exports
-exportfs
-showmount
-nfsstat
-/proc/mounts
-/etc/fstab
-rpcinfo
-mountd
-portmapper
-Topic 210: Network Client Management
-210.1 DHCP configuration
-Weight: 2
+* /etc/exports
+* exportfs
+* showmount
+* nfsstat
+* /proc/mounts
+* /etc/fstab
+* rpcinfo
+* mountd
+* portmapper
 
-Description: Candidates should be able to configure a DHCP server. This objective includes setting default and per client options, adding static hosts and BOOTP hosts. Also included is configuring a DHCP relay agent and maintaining the DHCP server.
+## Network Client Management
+### DHCP configuration
 
-Key Knowledge Areas:
+Configure a DHCP server. Setting default and per client options, adding static hosts and BOOTP hosts. Configuring a DHCP relay agent and maintaining the DHCP server.
+
+**Key Knowledge Areas:**
 
 DHCP configuration files, terms and utilities
 Subnet and dynamically-allocated range setup
 Awareness of DHCPv6 and IPv6 Router Advertisements
 Terms and Utilities:
 
-dhcpd.conf
-dhcpd.leases
-DHCP Log messages in syslog or systemd journal
-arp
-dhcpd
-radvd
-radvd.conf
+* dhcpd.conf
+* dhcpd.leases
+* DHCP Log messages in syslog or systemd journal
+* arp
+* dhcpd
+* radvd
+* radvd.conf
  
 
-210.2 PAM authentication
-Weight: 3
+## PAM authentication
 
-Description: The candidate should be able to configure PAM to support authentication using various available methods. This includes basic SSSD functionality.
+### Configure PAM to support authentication using various available methods. Basic SSSD functionality.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 PAM configuration files, terms and utilities
 passwd and shadow passwords
 Use sssd for LDAP authentication
 Terms and Utilities:
 
-/etc/pam.d/
-pam.conf
-nsswitch.conf
-pam_unix, pam_cracklib, pam_limits, pam_listfile, pam_sss
-sssd.conf
+* /etc/pam.d/
+* pam.conf
+* nsswitch.conf
+* pam_unix, pam_cracklib, pam_limits, pam_listfile, pam_sss
+* sssd.conf
  
 
-210.3 LDAP client usage
-Weight: 2
+## LDAP client usage
 
-Description: Candidates should be able to perform queries and updates to an LDAP server. Also included is importing and adding items, as well as adding and managing users.
+### Perform queries and updates to an LDAP server. Importing and adding items, as well as adding and managing users.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 LDAP utilities for data management and queries
 Change user passwords
 Querying the LDAP directory
 Terms and Utilities:
 
-ldapsearch
-ldappasswd
-ldapadd
-ldapdelete
+* ldapsearch
+* ldappasswd
+* ldapadd
+* ldapdelete
  
 
-210.4 Configuring an OpenLDAP server
-Weight: 4
+## Configuring an OpenLDAP server
 
-Description: Candidates should be able to configure a basic OpenLDAP server including knowledge of LDIF format and essential access controls.
+### Configure a basic OpenLDAP server including knowledge of LDIF format and essential access controls.
 
-Key Knowledge Areas:
+**Key Knowledge Areas:**
 
 OpenLDAP
 Directory based configuration
@@ -269,14 +265,15 @@ Directories
 Object IDs, Attributes and Classes
 Terms and Utilities:
 
-slapd
-slapd-config
-LDIF
-slapadd
-slapcat
-slapindex
-/var/lib/ldap/
-loglevel
+* slapd
+* slapd-config
+* LDIF
+* slapadd
+* slapcat
+* slapindex
+* /var/lib/ldap/
+* loglevel
+
 Topic 211: E-Mail Services
 211.1 Using e-mail servers
 Weight: 4
