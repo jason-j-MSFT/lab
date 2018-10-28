@@ -1,3 +1,9 @@
+Launch a VM in Azure.  This will create a:
+1. Resource Group
+1. VNET
+1. Subnet
+1. Linux VM with port 22 open and listening for SSH
+
 <a href="https://azuredeploy.net/" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
