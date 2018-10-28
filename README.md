@@ -19,10 +19,10 @@ Launch a VM in Azure.  This will create a:
 
 **Key Knowledge Areas:**
 
-_OpenSSH configuration files, tools and utilities_
-_Login restrictions for the superuser and the normal users_
-Managing and using server and client keys to login with and without password
-Usage of multiple connections from multiple hosts to guard against loss of connection to remote host following configuration changes
+_OpenSSH configuration files, tools and utilities  
+Login restrictions for the superuser and the normal users  
+Managing and using server and client keys to login with and without password  
+Usage of multiple connections from multiple hosts to guard against loss of connection to remote host following configuration changes_
 
 Terms and Utilities:
 
