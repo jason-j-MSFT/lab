@@ -3,6 +3,7 @@ Launch a VM in Azure.  This will create a:
 1. VNET
 1. Subnet
 1. Linux VM
+    1. Puplic IP
     1. port 22 open and listening for SSH
 
 <a href="https://azuredeploy.net/" target="_blank">
