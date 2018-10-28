@@ -10,7 +10,7 @@
 
 ### Configure BIND to function as a caching-only DNS server. Manage a running server and configuring logging.
 
-** Key Knowledge Areas: **
+**Key Knowledge Areas:**
 
 BIND 9.x configuration files, terms and utilities
 Defining the location of the BIND zone files in BIND configuration files
@@ -18,12 +18,12 @@ Reloading modified configuration and zone files
 Awareness of dnsmasq, djbdns and PowerDNS as alternate name servers
 The following is a partial list of the used files, terms and utilities:
 
-/etc/named.conf
-/var/named/
-/usr/sbin/rndc
-kill
-host
-dig
+* /etc/named.conf
+* /var/named/
+* /usr/sbin/rndc
+* kill
+* host
+* dig
  
 
 Create and maintain DNS zones
