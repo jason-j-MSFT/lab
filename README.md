@@ -320,10 +320,10 @@ Terms and Utilities:
 * doveconf
 * doveadm
 
-#System Security
+# System Security
 
-##Configuring a router
-###Configure a system to forward IP packet and perform network address translation (NAT, IP masquerading) and state its significance in protecting a network. Configuring port redirection, managing filter rules and averting attacks.
+## Configuring a router
+### Configure a system to forward IP packet and perform network address translation (NAT, IP masquerading) and state its significance in protecting a network. Configuring port redirection, managing filter rules and averting attacks.
 
 **Key Knowledge Areas:**
 
@@ -342,8 +342,8 @@ Terms and Utilities:
 * ip6tables
  
 
-##Securing FTP servers
-###Configure an FTP server for anonymous downloads and uploads. Precautions to be taken if anonymous uploads are permitted and configuring user access.
+## Securing FTP servers
+### Configure an FTP server for anonymous downloads and uploads. Precautions to be taken if anonymous uploads are permitted and configuring user access.
 
 **Key Knowledge Areas:**
 
@@ -356,8 +356,8 @@ Terms and Utilities:
 * important Pure-FTPd command line options
  
 
-##Secure shell (SSH)
-###Configure and secure an SSH daemon.  Managing keys and configuring SSH for users. Forward an application protocol over SSH and manage the SSH login.
+## Secure shell (SSH)
+### Configure and secure an SSH daemon.  Managing keys and configuring SSH for users. Forward an application protocol over SSH and manage the SSH login.
 
 **Key Knowledge Areas:**
 
@@ -375,8 +375,8 @@ Terms and Utilities:
 * PermitRootLogin, PubKeyAuthentication, AllowUsers, PasswordAuthentication, Protocol
  
 
-##Security tasks
-###Receive security alerts from various sources, install, configure and run intrusion detection systems and apply security patches and bugfixes.
+## Security tasks
+### Receive security alerts from various sources, install, configure and run intrusion detection systems and apply security patches and bugfixes.
 
 **Key Knowledge Areas:**
 
@@ -393,8 +393,8 @@ Terms and Utilities:
 * iptables
  
 
-##OpenVPN
-###Configure a VPN (Virtual Private Network) and create secure point-to-point or site-to-site connections.
+## OpenVPN
+### Configure a VPN (Virtual Private Network) and create secure point-to-point or site-to-site connections.
 
 **Key Knowledge Areas:**
 
