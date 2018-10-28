@@ -6,6 +6,7 @@
 </a>
 
 # Domain Name Server
+
 ## Basic DNS server configuration
 
 ### Configure BIND to function as a caching-only DNS server. Manage a running server and configuring logging.
