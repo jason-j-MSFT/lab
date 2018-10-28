@@ -8,7 +8,7 @@
 # Domain Name Server
 Basic DNS server configuration
 
-Configure BIND to function as a caching-only DNS server. This objective includes the ability to manage a running server and configuring logging.
+## Configure BIND to function as a caching-only DNS server. This objective includes the ability to manage a running server and configuring logging.
 
 Key Knowledge Areas:
 
